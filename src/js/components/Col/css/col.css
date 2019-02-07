@@ -1,0 +1,36 @@
+.col-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-list li{
+    list-style-type: none;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: #242133;
+    max-width: 250px;
+}
+.col-header{
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #fbf488;
+    padding: 20px;
+    color: #000;
+    text-align: center;
+}
+.add-card-container{
+    margin: 10px 0;
+    transition: all ease-in 0.3s;
+   
+}
+.add-card-btn{
+    background-color: #3a3848;
+    padding: 10px 5px;
+    border: none;
+    color: #fff;
+    font-size: 32px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}

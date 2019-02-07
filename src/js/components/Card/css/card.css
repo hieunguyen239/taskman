@@ -1,0 +1,26 @@
+.card-container{
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #624dff;
+    border-radius: 5px;
+    position: relative;
+    transition: all ease-in 0.2s;
+    transform: translate(0, 0);
+}
+.card-title{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.remove-card{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #b00020;
+    cursor: pointer;
+    padding: 7px;
+    background-color: #fbf488;
+    border-top-right-radius: 5px;
+}
+.card-container.removing{
+    transform: translate(0, -1000%);
+}
